@@ -1,0 +1,108 @@
+body {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+
+}
+
+header {
+    font-size: 20px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+
+
+}
+
+.contenedor1 {
+    display: flex;
+    border: 2px solid black;
+    background-image: url(./img/fondo.webp);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*  */
+
+.img-fluid {
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+
+}
+
+.logoI {
+    height: 20px;
+    border-radius: 5px;
+}
+
+.logoF {
+    height: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    background-color: grey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+@media (max-width: 867px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 80px;
+        font-size: 5px;
+    }
+
+    .carousel {
+        height: 300px;
+    }
+
+
+
+    .contenedor1 {
+        display: flex;
+        border: 2px solid black;
+        background-image: url(./img/fondo.webp);
+        background-size: cover;
+        background-position: center;
+        height: 900px;
+        justify-content: center;
+        border-radius: 5px;
+        text-align: center;
+        font-size: x-small;
+    }
+
+    .cajachica {
+        /* border: solid  black 2px ; */
+        max-width: 300px;
+        height: 400px;
+    }
+
+    .img-fluid {
+        border-radius: 10px;
+        height: 300px;
+        max-width: 100%;
+
+    }
+}
