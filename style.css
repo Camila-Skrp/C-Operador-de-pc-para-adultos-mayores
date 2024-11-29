@@ -63,7 +63,9 @@ h2 {
     text-align: center;
 }
 
-
+.btn2 {
+    margin-left: 150px;
+}
 @media (max-width: 867px) {
     footer {
         display: flex;
@@ -103,5 +105,8 @@ h2 {
         height: 300px;
         max-width: 100%;
 
+    }
+    .btn2 {
+        margin-left: 5px;
     }
 }
